@@ -1,0 +1,50 @@
+md Backup
+cd Backup
+copy/y Atividade01 Backup
+copi Atividade01 Backup
+copy Atividade01 Backup
+c..
+cd ..
+copy Atividade01 Backup
+cd Atividade01
+del
+cd ..
+del /s /q Atividade01
+tree /f
+color 02
+color 01
+color 06
+color 05
+color 07
+doskey /h
+doskey /h >> Aluno.txt
+dir
+type Aluno.txt
+color 02
+ren Atividade01 Trabalhos
+ren/y Atividade01 Trabalhos
+ren /Y Atividade01 Trabalhos
+ren Atividade01 Trabalhos
+ren /y Atividade01 Trabalhos
+ren Atividade01 Trabalhos
+md Documentos
+cd Documentos
+mk Projetos
+md Projetos
+md Pessoais
+cd ..
+move /y Trabalhos Documentos
+move /y Backup Documentos
+cd Pessoais
+ren Pessoais Lazer
+cd Documentos
+ren Pessoais Lazer
+cd Lazer
+echo Alemanha >> Viagem.txt
+echo Chile >> Viagem.txt
+echo Inglaterra >> Viagem.txt
+echo Australia >> Viagem.txt
+echo Peru >> Viagem.txt
+cd ..
+dir
+doskey /h >> BrunoRibeiro.txt
